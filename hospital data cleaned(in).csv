@@ -1,0 +1,985 @@
+Patient_ID,Age,Age_group,Gender,Condition,Procedure, Cost , Cost Category ,Length_of_Stay,Readmission,Outcome,Satisfaction
+1,45,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,5,No,Recovered,4
+2,60,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,3,Yes,Stable,3
+3,32,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,1,No,Recovered,5
+4,75,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,7,Yes,Stable,2
+5,50,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,10,No,Recovered,4
+6,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,2,No,Stable,4
+7,55,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,4,No,Recovered,3
+8,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,6,No,Recovered,4
+9,70,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,8,Yes,Stable,2
+10,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,1,No,Recovered,5
+11,48,Adult,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,2,No,Stable,4
+12,65,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,9,No,Recovered,3
+13,30,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,3,No,Recovered,4
+14,52,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,4,No,Recovered,3
+15,58,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,5,No,Stable,4
+16,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,6,Yes,Recovered,3
+17,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,4,No,Stable,4
+18,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,2,Yes,Recovered,5
+19,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,8,No,Stable,2
+20,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,11,Yes,Recovered,4
+21,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,3,No,Stable,4
+22,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,5,Yes,Recovered,3
+23,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,7,No,Recovered,4
+24,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,9,Yes,Stable,2
+25,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,2,No,Recovered,5
+26,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,3,No,Stable,4
+27,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,10,No,Recovered,3
+28,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,4,No,Recovered,4
+29,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,5,No,Recovered,3
+30,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,6,No,Stable,4
+31,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,7,Yes,Recovered,4
+32,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,5,No,Stable,3
+33,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,3,No,Recovered,5
+34,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,9,Yes,Stable,2
+35,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,12,No,Recovered,4
+36,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,4,No,Stable,4
+37,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,6,No,Recovered,3
+38,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,8,No,Recovered,4
+39,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,10,Yes,Stable,2
+40,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,3,No,Recovered,5
+41,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,4,No,Stable,4
+42,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,11,No,Recovered,3
+43,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,5,No,Recovered,4
+44,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,6,No,Recovered,3
+45,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,7,No,Stable,4
+46,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,8,Yes,Recovered,3
+47,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,6,No,Stable,4
+48,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,4,Yes,Recovered,5
+49,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,10,No,Stable,2
+50,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,13,Yes,Recovered,4
+51,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,5,No,Stable,4
+52,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,7,Yes,Recovered,3
+53,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,9,No,Recovered,4
+54,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,11,Yes,Stable,2
+55,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,4,No,Recovered,5
+56,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,5,No,Stable,4
+57,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,12,No,Recovered,3
+58,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,6,No,Recovered,4
+59,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,7,No,Recovered,3
+61,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,9,Yes,Recovered,4
+62,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,7,No,Stable,3
+63,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,5,No,Recovered,5
+64,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,11,Yes,Stable,2
+65,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,14,No,Recovered,4
+66,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,6,No,Stable,4
+67,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,8,No,Recovered,3
+68,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,10,No,Recovered,4
+69,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,12,Yes,Stable,2
+70,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,5,No,Recovered,5
+71,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,6,No,Stable,4
+72,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,13,No,Recovered,3
+73,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,7,No,Recovered,4
+74,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,8,No,Recovered,3
+75,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,9,No,Stable,4
+76,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,10,Yes,Recovered,3
+77,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,8,No,Stable,4
+78,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,6,Yes,Recovered,5
+79,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,12,No,Stable,2
+80,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,15,Yes,Recovered,4
+81,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,7,No,Stable,4
+82,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,9,Yes,Recovered,3
+83,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,11,No,Recovered,4
+84,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,13,Yes,Stable,2
+85,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,6,No,Recovered,5
+86,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,7,No,Stable,4
+87,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,14,No,Recovered,3
+88,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,8,No,Recovered,4
+89,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,9,No,Recovered,3
+90,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,10,No,Stable,4
+91,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,11,Yes,Recovered,4
+92,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,9,No,Stable,3
+93,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,7,No,Recovered,5
+94,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,13,Yes,Stable,2
+95,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,16,No,Recovered,4
+96,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,8,No,Stable,4
+97,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,10,No,Recovered,3
+98,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,12,No,Recovered,4
+99,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,14,Yes,Stable,2
+100,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,7,No,Recovered,5
+101,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,8,No,Stable,4
+102,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,15,No,Recovered,3
+103,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,9,No,Recovered,4
+104,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,10,No,Recovered,3
+105,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,11,No,Stable,4
+106,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,12,Yes,Recovered,3
+107,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,10,No,Stable,4
+108,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,8,Yes,Recovered,5
+109,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,14,No,Stable,2
+110,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,17,Yes,Recovered,4
+111,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,9,No,Stable,4
+112,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,11,Yes,Recovered,3
+113,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,13,No,Recovered,4
+114,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,15,Yes,Stable,2
+115,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,8,No,Recovered,5
+116,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,9,No,Stable,4
+117,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,16,No,Recovered,3
+118,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,10,No,Recovered,4
+119,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,11,No,Recovered,3
+120,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,12,No,Stable,4
+122,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,11,No,Stable,3
+123,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,9,No,Recovered,5
+124,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,15,Yes,Stable,2
+125,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,18,No,Recovered,4
+126,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,10,No,Stable,4
+127,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,12,No,Recovered,3
+128,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,14,No,Recovered,4
+129,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,16,Yes,Stable,2
+130,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,9,No,Recovered,5
+131,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,10,No,Stable,4
+132,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,17,No,Recovered,3
+133,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,11,No,Recovered,4
+134,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,12,No,Recovered,3
+135,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,13,No,Stable,4
+136,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,14,Yes,Recovered,3
+137,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,12,No,Stable,4
+138,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,10,Yes,Recovered,5
+139,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,16,No,Stable,2
+140,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,19,Yes,Recovered,4
+141,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,11,No,Stable,4
+142,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,13,Yes,Recovered,3
+143,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,15,No,Recovered,4
+144,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,17,Yes,Stable,2
+145,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,10,No,Recovered,5
+146,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,11,No,Stable,4
+147,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,18,No,Recovered,3
+148,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,12,No,Recovered,4
+149,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,13,No,Recovered,3
+150,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,14,No,Stable,4
+151,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,15,Yes,Recovered,4
+152,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,13,No,Stable,3
+153,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,11,No,Recovered,5
+154,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,17,Yes,Stable,2
+155,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,20,No,Recovered,4
+156,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,12,No,Stable,4
+157,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,14,No,Recovered,3
+158,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,16,No,Recovered,4
+159,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,18,Yes,Stable,2
+160,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,11,No,Recovered,5
+161,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,12,No,Stable,4
+162,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,19,No,Recovered,3
+163,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,13,No,Recovered,4
+164,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,14,No,Recovered,3
+165,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,15,No,Stable,4
+166,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,16,Yes,Recovered,3
+167,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,14,No,Stable,4
+168,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,12,Yes,Recovered,5
+169,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,18,No,Stable,2
+170,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,21,Yes,Recovered,4
+171,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,13,No,Stable,4
+172,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,15,Yes,Recovered,3
+173,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,17,No,Recovered,4
+174,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,19,Yes,Stable,2
+175,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,12,No,Recovered,5
+176,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,13,No,Stable,4
+177,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,20,No,Recovered,3
+178,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,14,No,Recovered,4
+179,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,15,No,Recovered,3
+180,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,16,No,Stable,4
+181,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,17,Yes,Recovered,4
+183,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,13,No,Recovered,5
+184,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,19,Yes,Stable,2
+185,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,22,No,Recovered,4
+186,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,14,No,Stable,4
+187,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,16,No,Recovered,3
+188,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,18,No,Recovered,4
+189,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,20,Yes,Stable,2
+190,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,13,No,Recovered,5
+191,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,14,No,Stable,4
+192,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,21,No,Recovered,3
+193,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,15,No,Recovered,4
+194,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,16,No,Recovered,3
+195,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,17,No,Stable,4
+196,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,18,Yes,Recovered,3
+197,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,16,No,Stable,4
+198,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,14,Yes,Recovered,5
+199,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,20,No,Stable,2
+200,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,23,Yes,Recovered,4
+201,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,15,No,Stable,4
+202,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,17,Yes,Recovered,3
+203,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,19,No,Recovered,4
+204,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,21,Yes,Stable,2
+205,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,14,No,Recovered,5
+206,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,15,No,Stable,4
+207,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,22,No,Recovered,3
+208,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,16,No,Recovered,4
+209,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,17,No,Recovered,3
+210,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,18,No,Stable,4
+211,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,19,Yes,Recovered,4
+212,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,17,No,Stable,3
+213,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,15,No,Recovered,5
+214,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,21,Yes,Stable,2
+215,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,24,No,Recovered,4
+216,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,16,No,Stable,4
+217,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,18,No,Recovered,3
+218,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,20,No,Recovered,4
+219,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,22,Yes,Stable,2
+220,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,15,No,Recovered,5
+221,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,16,No,Stable,4
+222,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,23,No,Recovered,3
+223,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,17,No,Recovered,4
+224,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,18,No,Recovered,3
+225,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,19,No,Stable,4
+226,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,20,Yes,Recovered,3
+227,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,18,No,Stable,4
+228,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,16,Yes,Recovered,5
+229,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,22,No,Stable,2
+230,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,25,Yes,Recovered,4
+231,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,17,No,Stable,4
+232,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,19,Yes,Recovered,3
+233,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,21,No,Recovered,4
+234,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,23,Yes,Stable,2
+235,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,16,No,Recovered,5
+236,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,17,No,Stable,4
+237,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,24,No,Recovered,3
+238,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,18,No,Recovered,4
+239,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,19,No,Recovered,3
+240,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,20,No,Stable,4
+241,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,21,Yes,Recovered,4
+242,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,19,No,Stable,3
+244,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,23,Yes,Stable,2
+245,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,26,No,Recovered,4
+246,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,18,No,Stable,4
+247,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,20,No,Recovered,3
+248,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,22,No,Recovered,4
+249,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,24,Yes,Stable,2
+250,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,17,No,Recovered,5
+251,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,18,No,Stable,4
+252,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,25,No,Recovered,3
+253,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,19,No,Recovered,4
+254,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,20,No,Recovered,3
+255,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,21,No,Stable,4
+256,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,22,Yes,Recovered,3
+257,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,20,No,Stable,4
+258,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,18,Yes,Recovered,5
+259,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,24,No,Stable,2
+260,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,27,Yes,Recovered,4
+261,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,19,No,Stable,4
+262,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,21,Yes,Recovered,3
+263,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,23,No,Recovered,4
+264,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,25,Yes,Stable,2
+265,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,18,No,Recovered,5
+266,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,19,No,Stable,4
+267,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,26,No,Recovered,3
+268,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,20,No,Recovered,4
+269,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,21,No,Recovered,3
+270,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,22,No,Stable,4
+271,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,23,Yes,Recovered,4
+272,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,21,No,Stable,3
+273,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,19,No,Recovered,5
+274,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,25,Yes,Stable,2
+275,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,28,No,Recovered,4
+276,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,20,No,Stable,4
+277,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,22,No,Recovered,3
+278,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,24,No,Recovered,4
+279,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,26,Yes,Stable,2
+280,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,19,No,Recovered,5
+281,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,20,No,Stable,4
+282,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,27,No,Recovered,3
+283,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,21,No,Recovered,4
+284,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,22,No,Recovered,3
+285,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,23,No,Stable,4
+286,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,24,Yes,Recovered,3
+287,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,22,No,Stable,4
+288,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,20,Yes,Recovered,5
+289,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,26,No,Stable,2
+290,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,29,Yes,Recovered,4
+291,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,21,No,Stable,4
+292,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,23,Yes,Recovered,3
+293,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,25,No,Recovered,4
+294,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,27,Yes,Stable,2
+296,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,21,No,Stable,4
+297,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,28,No,Recovered,3
+298,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,22,No,Recovered,4
+299,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,23,No,Recovered,3
+300,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,24,No,Stable,4
+301,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,25,Yes,Recovered,4
+302,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,23,No,Stable,3
+303,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,21,No,Recovered,5
+304,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,27,Yes,Stable,2
+305,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,30,No,Recovered,4
+306,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,22,No,Stable,4
+307,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,24,No,Recovered,3
+308,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,26,No,Recovered,4
+309,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,28,Yes,Stable,2
+310,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,21,No,Recovered,5
+311,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,22,No,Stable,4
+312,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,29,No,Recovered,3
+313,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,23,No,Recovered,4
+314,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,24,No,Recovered,3
+315,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,25,No,Stable,4
+316,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,26,Yes,Recovered,3
+317,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,24,No,Stable,4
+318,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,22,Yes,Recovered,5
+319,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,28,No,Stable,2
+320,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,31,Yes,Recovered,4
+321,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,23,No,Stable,4
+322,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,25,Yes,Recovered,3
+323,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,27,No,Recovered,4
+324,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,29,Yes,Stable,2
+325,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,22,No,Recovered,5
+326,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,23,No,Stable,4
+327,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,30,No,Recovered,3
+328,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,24,No,Recovered,4
+329,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,25,No,Recovered,3
+330,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,26,No,Stable,4
+331,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,27,Yes,Recovered,4
+332,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,25,No,Stable,3
+333,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,23,No,Recovered,5
+334,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,29,Yes,Stable,2
+335,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,32,No,Recovered,4
+336,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,24,No,Stable,4
+337,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,26,No,Recovered,3
+338,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,28,No,Recovered,4
+339,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,30,Yes,Stable,2
+340,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,23,No,Recovered,5
+341,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,24,No,Stable,4
+342,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,31,No,Recovered,3
+343,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,25,No,Recovered,4
+344,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,26,No,Recovered,3
+345,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,27,No,Stable,4
+346,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,28,Yes,Recovered,3
+347,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,26,No,Stable,4
+348,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,24,Yes,Recovered,5
+349,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,30,No,Stable,2
+350,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,33,Yes,Recovered,4
+351,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,25,No,Stable,4
+352,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,27,Yes,Recovered,3
+353,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,29,No,Recovered,4
+354,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,31,Yes,Stable,2
+355,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,24,No,Recovered,5
+357,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,32,No,Recovered,3
+358,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,26,No,Recovered,4
+359,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,27,No,Recovered,3
+360,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,28,No,Stable,4
+361,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,29,Yes,Recovered,4
+362,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,27,No,Stable,3
+363,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,25,No,Recovered,5
+364,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,31,Yes,Stable,2
+365,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,34,No,Recovered,4
+366,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,26,No,Stable,4
+367,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,28,No,Recovered,3
+368,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,30,No,Recovered,4
+369,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,32,Yes,Stable,2
+370,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,25,No,Recovered,5
+371,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,26,No,Stable,4
+372,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,33,No,Recovered,3
+373,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,27,No,Recovered,4
+374,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,28,No,Recovered,3
+375,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,29,No,Stable,4
+376,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,30,Yes,Recovered,3
+377,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,28,No,Stable,4
+378,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,26,Yes,Recovered,5
+379,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,33,No,Stable,2
+380,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,35,Yes,Recovered,4
+381,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,27,No,Stable,4
+382,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,29,Yes,Recovered,3
+383,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,31,No,Recovered,4
+384,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,33,Yes,Stable,2
+385,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,26,No,Recovered,5
+386,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,27,No,Stable,4
+387,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,34,No,Recovered,3
+388,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,28,No,Recovered,4
+389,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,29,No,Recovered,3
+390,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,30,No,Stable,4
+391,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,31,Yes,Recovered,4
+392,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,29,No,Stable,3
+393,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,27,No,Recovered,5
+394,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,34,Yes,Stable,2
+395,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,36,No,Recovered,4
+396,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,28,No,Stable,4
+397,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,30,No,Recovered,3
+398,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,32,No,Recovered,4
+399,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,34,Yes,Stable,2
+400,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,27,No,Recovered,5
+401,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,28,No,Stable,4
+402,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,35,No,Recovered,3
+403,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,29,No,Recovered,4
+404,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,30,No,Recovered,3
+405,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,31,No,Stable,4
+406,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,32,Yes,Recovered,3
+407,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,30,No,Stable,4
+408,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,28,Yes,Recovered,5
+409,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,35,No,Stable,2
+410,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,37,Yes,Recovered,4
+411,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,29,No,Stable,4
+412,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,31,Yes,Recovered,3
+413,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,33,No,Recovered,4
+414,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,35,Yes,Stable,2
+415,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,28,No,Recovered,5
+416,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,29,No,Stable,4
+418,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,30,No,Recovered,4
+419,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,31,No,Recovered,3
+420,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,32,No,Stable,4
+421,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,33,Yes,Recovered,4
+422,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,31,No,Stable,3
+423,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,29,No,Recovered,5
+424,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,36,Yes,Stable,2
+425,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,38,No,Recovered,4
+426,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,30,No,Stable,4
+427,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,32,No,Recovered,3
+428,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,34,No,Recovered,4
+429,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,36,Yes,Stable,2
+430,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,29,No,Recovered,5
+431,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,30,No,Stable,4
+432,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,37,No,Recovered,3
+433,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,31,No,Recovered,4
+434,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,32,No,Recovered,3
+435,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,33,No,Stable,4
+436,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,34,Yes,Recovered,3
+437,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,32,No,Stable,4
+438,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,30,Yes,Recovered,5
+439,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,37,No,Stable,2
+440,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,39,Yes,Recovered,4
+441,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,31,No,Stable,4
+442,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,33,Yes,Recovered,3
+443,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,35,No,Recovered,4
+444,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,37,Yes,Stable,2
+445,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,30,No,Recovered,5
+446,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,31,No,Stable,4
+447,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,38,No,Recovered,3
+448,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,32,No,Recovered,4
+449,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,33,No,Recovered,3
+450,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,34,No,Stable,4
+451,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,35,Yes,Recovered,4
+452,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,33,No,Stable,3
+453,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,31,No,Recovered,5
+454,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,38,Yes,Stable,2
+455,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,40,No,Recovered,4
+456,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,32,No,Stable,4
+457,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,34,No,Recovered,3
+458,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,36,No,Recovered,4
+459,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,38,Yes,Stable,2
+460,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,31,No,Recovered,5
+461,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,32,No,Stable,4
+462,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,39,No,Recovered,3
+463,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,33,No,Recovered,4
+464,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,34,No,Recovered,3
+465,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,35,No,Stable,4
+466,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,36,Yes,Recovered,3
+467,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,34,No,Stable,4
+468,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,32,Yes,Recovered,5
+469,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,39,No,Stable,2
+470,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,41,Yes,Recovered,4
+471,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,33,No,Stable,4
+472,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,35,Yes,Recovered,3
+473,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,37,No,Recovered,4
+474,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,39,Yes,Stable,2
+475,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,32,No,Recovered,5
+476,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,33,No,Stable,4
+477,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,40,No,Recovered,3
+479,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,35,No,Recovered,3
+480,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,36,No,Stable,4
+481,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,37,Yes,Recovered,4
+482,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,35,No,Stable,3
+483,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,33,No,Recovered,5
+484,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,40,Yes,Stable,2
+485,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,42,No,Recovered,4
+486,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,34,No,Stable,4
+487,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,36,No,Recovered,3
+488,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,38,No,Recovered,4
+489,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,40,Yes,Stable,2
+490,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,33,No,Recovered,5
+491,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,34,No,Stable,4
+492,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,41,No,Recovered,3
+493,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,35,No,Recovered,4
+494,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,36,No,Recovered,3
+495,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,37,No,Stable,4
+496,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,38,Yes,Recovered,3
+497,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,36,No,Stable,4
+498,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,34,Yes,Recovered,5
+499,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,41,No,Stable,2
+500,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,43,Yes,Recovered,4
+501,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,35,No,Stable,4
+502,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,37,Yes,Recovered,3
+503,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,39,No,Recovered,4
+504,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,41,Yes,Stable,2
+505,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,34,No,Recovered,5
+506,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,35,No,Stable,4
+507,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,42,No,Recovered,3
+508,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,36,No,Recovered,4
+509,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,37,No,Recovered,3
+510,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,38,No,Stable,4
+511,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,39,Yes,Recovered,4
+512,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,37,No,Stable,3
+513,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,35,No,Recovered,5
+514,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,42,Yes,Stable,2
+515,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,44,No,Recovered,4
+516,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,36,No,Stable,4
+517,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,38,No,Recovered,3
+518,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,40,No,Recovered,4
+519,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,42,Yes,Stable,2
+520,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,35,No,Recovered,5
+521,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,36,No,Stable,4
+522,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,43,No,Recovered,3
+523,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,37,No,Recovered,4
+524,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,38,No,Recovered,3
+525,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,39,No,Stable,4
+526,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,40,Yes,Recovered,3
+527,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,38,No,Stable,4
+528,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,36,Yes,Recovered,5
+529,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,43,No,Stable,2
+530,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,45,Yes,Recovered,4
+531,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,38,No,Stable,4
+532,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,39,Yes,Recovered,3
+533,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,41,No,Recovered,4
+534,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,43,Yes,Stable,2
+535,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,36,No,Recovered,5
+536,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,37,No,Stable,4
+537,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,44,No,Recovered,3
+538,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,38,No,Recovered,4
+540,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,40,No,Stable,4
+541,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,41,Yes,Recovered,4
+542,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,39,No,Stable,3
+543,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,37,No,Recovered,5
+544,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,44,Yes,Stable,2
+545,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,46,No,Recovered,4
+546,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,40,No,Stable,4
+547,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,42,No,Recovered,3
+548,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,42,No,Recovered,4
+549,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,44,Yes,Stable,2
+550,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,37,No,Recovered,5
+551,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,38,No,Stable,4
+552,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,45,No,Recovered,3
+553,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,39,No,Recovered,4
+554,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,40,No,Recovered,3
+555,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,41,No,Stable,4
+556,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,42,Yes,Recovered,3
+557,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,40,No,Stable,4
+558,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,38,Yes,Recovered,5
+559,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,45,No,Stable,2
+560,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,47,Yes,Recovered,4
+561,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,41,No,Stable,4
+562,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,43,Yes,Recovered,3
+563,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,43,No,Recovered,4
+564,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,45,Yes,Stable,2
+565,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,38,No,Recovered,5
+566,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,39,No,Stable,4
+567,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,46,No,Recovered,3
+568,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,40,No,Recovered,4
+569,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,41,No,Recovered,3
+570,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,42,No,Stable,4
+571,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,43,Yes,Recovered,4
+572,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,41,No,Stable,3
+573,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,39,No,Recovered,5
+574,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,46,Yes,Stable,2
+575,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,48,No,Recovered,4
+576,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,42,No,Stable,4
+577,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,44,No,Recovered,3
+578,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,44,No,Recovered,4
+579,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,46,Yes,Stable,2
+580,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,39,No,Recovered,5
+581,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,40,No,Stable,4
+582,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,47,No,Recovered,3
+583,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,41,No,Recovered,4
+584,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,42,No,Recovered,3
+585,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,43,No,Stable,4
+586,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,44,Yes,Recovered,3
+587,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,42,No,Stable,4
+588,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,40,Yes,Recovered,5
+589,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,47,No,Stable,2
+590,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,49,Yes,Recovered,4
+591,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,43,No,Stable,4
+592,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,45,Yes,Recovered,3
+593,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,45,No,Recovered,4
+594,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,47,Yes,Stable,2
+595,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,40,No,Recovered,5
+596,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,41,No,Stable,4
+597,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,48,No,Recovered,3
+598,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,42,No,Recovered,4
+599,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,43,No,Recovered,3
+601,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,45,Yes,Recovered,4
+602,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,43,No,Stable,3
+603,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,41,No,Recovered,5
+604,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,48,Yes,Stable,2
+605,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,50,No,Recovered,4
+606,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,44,No,Stable,4
+607,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,46,No,Recovered,3
+608,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,46,No,Recovered,4
+609,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,48,Yes,Stable,2
+610,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,41,No,Recovered,5
+611,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,42,No,Stable,4
+612,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,49,No,Recovered,3
+613,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,43,No,Recovered,4
+614,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,44,No,Recovered,3
+615,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,45,No,Stable,4
+616,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,46,Yes,Recovered,3
+617,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,44,No,Stable,4
+618,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,42,Yes,Recovered,5
+619,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,49,No,Stable,2
+620,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,51,Yes,Recovered,4
+621,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,45,No,Stable,4
+622,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,47,Yes,Recovered,3
+623,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,47,No,Recovered,4
+624,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,49,Yes,Stable,2
+625,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,42,No,Recovered,5
+626,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,43,No,Stable,4
+627,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,50,No,Recovered,3
+628,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,44,No,Recovered,4
+629,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,45,No,Recovered,3
+630,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,46,No,Stable,4
+631,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,47,Yes,Recovered,4
+632,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,45,No,Stable,3
+633,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,43,No,Recovered,5
+634,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,50,Yes,Stable,2
+635,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,52,No,Recovered,4
+636,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,46,No,Stable,4
+637,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,48,No,Recovered,3
+638,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,48,No,Recovered,4
+639,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,50,Yes,Stable,2
+640,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,43,No,Recovered,5
+641,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,44,No,Stable,4
+642,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,51,No,Recovered,3
+643,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,45,No,Recovered,4
+644,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,46,No,Recovered,3
+645,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,47,No,Stable,4
+646,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,48,Yes,Recovered,3
+647,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,46,No,Stable,4
+648,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,44,Yes,Recovered,5
+649,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,51,No,Stable,2
+650,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,53,Yes,Recovered,4
+651,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,47,No,Stable,4
+652,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,49,Yes,Recovered,3
+653,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,49,No,Recovered,4
+654,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,51,Yes,Stable,2
+655,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,44,No,Recovered,5
+656,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,45,No,Stable,4
+657,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,52,No,Recovered,3
+658,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,46,No,Recovered,4
+659,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,47,No,Recovered,3
+660,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,48,No,Stable,4
+662,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,47,No,Stable,3
+663,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,45,No,Recovered,5
+664,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,52,Yes,Stable,2
+665,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,54,No,Recovered,4
+666,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,48,No,Stable,4
+667,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,50,No,Recovered,3
+668,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,50,No,Recovered,4
+669,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,52,Yes,Stable,2
+670,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,45,No,Recovered,5
+671,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,46,No,Stable,4
+672,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,53,No,Recovered,3
+673,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,47,No,Recovered,4
+674,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,48,No,Recovered,3
+675,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,49,No,Stable,4
+676,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,50,Yes,Recovered,3
+677,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,48,No,Stable,4
+678,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,46,Yes,Recovered,5
+679,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,53,No,Stable,2
+680,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,55,Yes,Recovered,4
+681,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,49,No,Stable,4
+682,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,51,Yes,Recovered,3
+683,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,51,No,Recovered,4
+684,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,53,Yes,Stable,2
+685,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,46,No,Recovered,5
+686,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,47,No,Stable,4
+687,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,54,No,Recovered,3
+688,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,48,No,Recovered,4
+689,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,49,No,Recovered,3
+690,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,50,No,Stable,4
+691,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,51,Yes,Recovered,4
+692,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,49,No,Stable,3
+693,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,47,No,Recovered,5
+694,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,54,Yes,Stable,2
+695,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,56,No,Recovered,4
+696,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,50,No,Stable,4
+697,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,52,No,Recovered,3
+698,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,52,No,Recovered,4
+699,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,54,Yes,Stable,2
+700,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,47,No,Recovered,5
+701,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,48,No,Stable,4
+702,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,55,No,Recovered,3
+703,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,49,No,Recovered,4
+704,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,50,No,Recovered,3
+705,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,51,No,Stable,4
+706,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,52,Yes,Recovered,3
+707,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,50,No,Stable,4
+708,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,48,Yes,Recovered,5
+709,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,55,No,Stable,2
+710,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,57,Yes,Recovered,4
+711,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,51,No,Stable,4
+712,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,53,Yes,Recovered,3
+713,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,53,No,Recovered,4
+714,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,55,Yes,Stable,2
+715,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,48,No,Recovered,5
+716,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,49,No,Stable,4
+717,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,56,No,Recovered,3
+718,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,50,No,Recovered,4
+719,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,51,No,Recovered,3
+720,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,52,No,Stable,4
+721,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,53,Yes,Recovered,4
+723,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,49,No,Recovered,5
+724,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,56,Yes,Stable,2
+725,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,58,No,Recovered,4
+726,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,52,No,Stable,4
+727,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,54,No,Recovered,3
+728,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,54,No,Recovered,4
+729,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,56,Yes,Stable,2
+730,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,49,No,Recovered,5
+731,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,50,No,Stable,4
+732,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,57,No,Recovered,3
+733,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,51,No,Recovered,4
+734,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,52,No,Recovered,3
+735,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,53,No,Stable,4
+736,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,54,Yes,Recovered,3
+737,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,52,No,Stable,4
+738,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,50,Yes,Recovered,5
+739,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,57,No,Stable,2
+740,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,59,Yes,Recovered,4
+741,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,53,No,Stable,4
+742,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,55,Yes,Recovered,3
+743,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,55,No,Recovered,4
+744,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,57,Yes,Stable,2
+745,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,50,No,Recovered,5
+746,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,51,No,Stable,4
+747,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,58,No,Recovered,3
+748,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,52,No,Recovered,4
+749,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,53,No,Recovered,3
+750,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,54,No,Stable,4
+751,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,55,Yes,Recovered,4
+752,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,53,No,Stable,3
+753,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,51,No,Recovered,5
+754,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,58,Yes,Stable,2
+755,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,60,No,Recovered,4
+756,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,54,No,Stable,4
+757,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,56,No,Recovered,3
+758,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,56,No,Recovered,4
+759,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,58,Yes,Stable,2
+760,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,51,No,Recovered,5
+761,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,52,No,Stable,4
+762,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,59,No,Recovered,3
+763,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,53,No,Recovered,4
+764,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,54,No,Recovered,3
+765,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,55,No,Stable,4
+766,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,56,Yes,Recovered,3
+767,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,54,No,Stable,4
+768,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,52,Yes,Recovered,5
+769,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,59,No,Stable,2
+770,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,61,Yes,Recovered,4
+771,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,55,No,Stable,4
+772,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,57,Yes,Recovered,3
+773,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,57,No,Recovered,4
+774,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,59,Yes,Stable,2
+775,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,52,No,Recovered,5
+776,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,53,No,Stable,4
+777,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,60,No,Recovered,3
+778,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,54,No,Recovered,4
+779,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,55,No,Recovered,3
+780,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,56,No,Stable,4
+781,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,57,Yes,Recovered,4
+782,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,55,No,Stable,3
+783,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,53,No,Recovered,5
+785,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,62,No,Recovered,4
+786,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,56,No,Stable,4
+787,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,58,No,Recovered,3
+788,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,58,No,Recovered,4
+789,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,60,Yes,Stable,2
+790,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,53,No,Recovered,5
+791,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,54,No,Stable,4
+792,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,61,No,Recovered,3
+793,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,55,No,Recovered,4
+794,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,56,No,Recovered,3
+795,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,57,No,Stable,4
+796,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,58,Yes,Recovered,3
+797,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,56,No,Stable,4
+798,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,54,Yes,Recovered,5
+799,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,61,No,Stable,2
+800,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,63,Yes,Recovered,4
+801,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,57,No,Stable,4
+802,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,59,Yes,Recovered,3
+803,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,59,No,Recovered,4
+804,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,61,Yes,Stable,2
+805,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,54,No,Recovered,5
+806,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,55,No,Stable,4
+807,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,62,No,Recovered,3
+808,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,56,No,Recovered,4
+809,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,57,No,Recovered,3
+810,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,58,No,Stable,4
+811,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,59,Yes,Recovered,4
+812,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,57,No,Stable,3
+813,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,55,No,Recovered,5
+814,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,62,Yes,Stable,2
+815,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,64,No,Recovered,4
+816,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,58,No,Stable,4
+817,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,60,No,Recovered,3
+818,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,60,No,Recovered,4
+819,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,62,Yes,Stable,2
+820,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,55,No,Recovered,5
+821,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,56,No,Stable,4
+822,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,63,No,Recovered,3
+823,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,57,No,Recovered,4
+824,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,58,No,Recovered,3
+825,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,59,No,Stable,4
+826,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,60,Yes,Recovered,3
+827,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,58,No,Stable,4
+828,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,56,Yes,Recovered,5
+829,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,63,No,Stable,2
+830,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,65,Yes,Recovered,4
+831,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,59,No,Stable,4
+832,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,61,Yes,Recovered,3
+833,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,61,No,Recovered,4
+834,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,63,Yes,Stable,2
+835,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,56,No,Recovered,5
+836,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,57,No,Stable,4
+837,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,64,No,Recovered,3
+838,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,58,No,Recovered,4
+839,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,59,No,Recovered,3
+840,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,60,No,Stable,4
+841,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,61,Yes,Recovered,4
+842,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,59,No,Stable,3
+843,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,57,No,Recovered,5
+844,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,64,Yes,Stable,2
+846,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,60,No,Stable,4
+847,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,62,No,Recovered,3
+848,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,62,No,Recovered,4
+849,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,64,Yes,Stable,2
+850,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,57,No,Recovered,5
+851,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,58,No,Stable,4
+852,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,65,No,Recovered,3
+853,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,59,No,Recovered,4
+854,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,60,No,Recovered,3
+855,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,61,No,Stable,4
+856,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,62,Yes,Recovered,3
+857,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,60,No,Stable,4
+858,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,58,Yes,Recovered,5
+859,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,65,No,Stable,2
+860,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,67,Yes,Recovered,4
+861,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,61,No,Stable,4
+862,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,63,Yes,Recovered,3
+863,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,63,No,Recovered,4
+864,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,65,Yes,Stable,2
+865,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,58,No,Recovered,5
+866,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,59,No,Stable,4
+867,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,66,No,Recovered,3
+868,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,60,No,Recovered,4
+869,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,61,No,Recovered,3
+870,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,62,No,Stable,4
+871,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,63,Yes,Recovered,4
+872,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,61,No,Stable,3
+873,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,59,No,Recovered,5
+874,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,66,Yes,Stable,2
+875,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,68,No,Recovered,4
+876,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,62,No,Stable,4
+877,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,64,No,Recovered,3
+878,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,64,No,Recovered,4
+879,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,66,Yes,Stable,2
+880,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,59,No,Recovered,5
+881,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,60,No,Stable,4
+882,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,67,No,Recovered,3
+883,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,61,No,Recovered,4
+884,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,62,No,Recovered,3
+885,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,63,No,Stable,4
+886,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,64,Yes,Recovered,3
+887,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,62,No,Stable,4
+888,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,60,Yes,Recovered,5
+889,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,67,No,Stable,2
+890,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,69,Yes,Recovered,4
+891,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,63,No,Stable,4
+892,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,65,Yes,Recovered,3
+893,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,65,No,Recovered,4
+894,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,67,Yes,Stable,2
+895,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,60,No,Recovered,5
+896,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,61,No,Stable,4
+897,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,68,No,Recovered,3
+898,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,62,No,Recovered,4
+899,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,63,No,Recovered,3
+900,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,64,No,Stable,4
+901,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,65,Yes,Recovered,4
+902,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,63,No,Stable,3
+903,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,61,No,Recovered,5
+904,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,68,Yes,Stable,2
+905,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,70,No,Recovered,4
+907,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,66,No,Recovered,3
+908,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,66,No,Recovered,4
+909,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,68,Yes,Stable,2
+910,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,61,No,Recovered,5
+911,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,62,No,Stable,4
+912,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,69,No,Recovered,3
+913,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,63,No,Recovered,4
+914,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,64,No,Recovered,3
+915,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,65,No,Stable,4
+916,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,66,Yes,Recovered,3
+917,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,64,No,Stable,4
+918,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,62,Yes,Recovered,5
+919,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,69,No,Stable,2
+920,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,71,Yes,Recovered,4
+921,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,65,No,Stable,4
+922,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,67,Yes,Recovered,3
+923,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,67,No,Recovered,4
+924,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,69,Yes,Stable,2
+925,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,62,No,Recovered,5
+926,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,63,No,Stable,4
+927,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,70,No,Recovered,3
+928,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,64,No,Recovered,4
+929,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,65,No,Recovered,3
+930,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,66,No,Stable,4
+931,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,67,Yes,Recovered,4
+932,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,65,No,Stable,3
+933,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,63,No,Recovered,5
+934,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,70,Yes,Stable,2
+935,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,72,No,Recovered,4
+936,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,66,No,Stable,4
+937,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,68,No,Recovered,3
+938,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,68,No,Recovered,4
+939,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,70,Yes,Stable,2
+940,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,63,No,Recovered,5
+941,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,64,No,Stable,4
+942,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,71,No,Recovered,3
+943,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,65,No,Recovered,4
+944,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,66,No,Recovered,3
+945,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,67,No,Stable,4
+946,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,68,Yes,Recovered,3
+947,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,66,No,Stable,4
+948,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,64,Yes,Recovered,5
+949,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,71,No,Stable,2
+950,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,73,Yes,Recovered,4
+951,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,67,No,Stable,4
+952,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,69,Yes,Recovered,3
+953,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,69,No,Recovered,4
+954,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,71,Yes,Stable,2
+955,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,64,No,Recovered,5
+956,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,65,No,Stable,4
+957,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,72,No,Recovered,3
+958,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,66,No,Recovered,4
+959,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,67,No,Recovered,3
+960,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,68,No,Stable,4
+961,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,69,Yes,Recovered,4
+962,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,67,No,Stable,3
+963,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,65,No,Recovered,5
+964,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,72,Yes,Stable,2
+965,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,74,No,Recovered,4
+966,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,68,No,Stable,4
+968,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,70,No,Recovered,4
+969,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,72,Yes,Stable,2
+970,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,65,No,Recovered,5
+971,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,66,No,Stable,4
+972,58,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,73,No,Recovered,3
+973,32,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,67,No,Recovered,4
+974,55,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,68,No,Recovered,3
+975,65,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,69,No,Stable,4
+976,55,Middle Age,Female,Heart Disease,Angioplasty," £15,000 ", High ,70,Yes,Recovered,3
+977,62,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,68,No,Stable,4
+978,35,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,66,Yes,Recovered,5
+979,78,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,73,No,Stable,2
+980,53,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,75,Yes,Recovered,4
+981,72,Senior,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,69,No,Stable,4
+982,60,Middle Age,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,71,Yes,Recovered,3
+983,45,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,71,No,Recovered,4
+984,75,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,73,Yes,Stable,2
+985,28,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,67,No,Recovered,5
+986,52,Middle Age,Female,Respiratory Infection,Antibiotics and Rest, £800 , Low ,68,No,Stable,4
+987,67,Middle Age,Male,Prostate Cancer,Radiation Therapy," £20,000 ", High ,74,No,Recovered,3
+988,35,Adult,Female,Childbirth,Delivery and Postnatal Care," £12,000 ", Medium ,68,No,Recovered,4
+989,50,Middle Age,Male,Kidney Stones,Lithotripsy," £6,000 ", Medium ,69,No,Recovered,3
+990,60,Middle Age,Female,Osteoarthritis,Physical Therapy and Pain Management," £4,000 ", Low ,70,No,Stable,4
+991,48,Adult,Female,Heart Disease,Angioplasty," £15,000 ", High ,71,Yes,Recovered,4
+992,65,Middle Age,Male,Diabetes,Insulin Therapy," £2,000 ", Low ,69,No,Stable,3
+993,30,Adult,Female,Fractured Arm,X-Ray and Splint, £500 , Low ,67,No,Recovered,5
+994,70,Senior,Male,Stroke,CT Scan and Medication," £10,000 ", Medium ,74,Yes,Stable,2
+995,55,Middle Age,Female,Cancer,Surgery and Chemotherapy," £25,000 ", High ,76,No,Recovered,4
+996,68,Middle Age,Male,Hypertension,Medication and Counseling," £1,000 ", Low ,70,No,Stable,4
+997,45,Adult,Female,Appendicitis,Appendectomy," £8,000 ", Medium ,72,No,Recovered,3
+998,40,Adult,Male,Fractured Leg,Cast and Physical Therapy," £3,000 ", Low ,72,No,Recovered,4
+999,78,Senior,Female,Heart Attack,Cardiac Catheterization," £18,000 ", High ,74,Yes,Stable,2
+1000,25,Young,Male,Allergic Reaction,Epinephrine Injection, £100 , Low ,68,No,Recovered,5
